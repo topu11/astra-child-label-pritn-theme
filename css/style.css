@@ -1,0 +1,181 @@
+.elementor-1718
+  .elementor-element.elementor-element-a3dcdc6:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-1718
+  .elementor-element.elementor-element-a3dcdc6
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("https://wordpress-474365-1656051.cloudwaysapps.com/wp-content/uploads/2023/03/goda-kakor-i-skane.jpg");
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  background-repeat: no-repeat;
+}
+.enc-shop-page-header {
+  width: 100%;
+  float: left;
+  margin-top: 0px;
+  adding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+/* New 07.02.2024 */
+
+body.woocommerce-account .d__none_c {
+  display: none !important;
+}
+body.woocommerce-account .fixed__nav_bar nav.woocommerce-MyAccount-navigation {
+  position: fixed;
+  max-width: 290px;
+  max-height: calc(100vh - 130px);
+  overflow: auto;
+  background-color: #fff;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+body.woocommerce-account
+  .fixed__nav_bar
+  nav.woocommerce-MyAccount-navigation
+  ul
+  li
+  > a {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+body.woocommerce-account
+  .fixed__nav_bar
+  nav.woocommerce-MyAccount-navigation
+  ul
+  li {
+  border-bottom: 2px solid #d5d8dc !important;
+}
+body.woocommerce-account
+  .fixed__nav_bar
+  nav.woocommerce-MyAccount-navigation
+  ul
+  li:last-child {
+  border-bottom: 0 !important;
+}
+body.woocommerce-account .fixed__nav_bar .recreate_body .recreate_p {
+  padding-top: 0;
+}
+body.woocommerce-account .fixed__nav_bar .recreate_body .table_container {
+  margin-top: 0;
+}
+
+body.woocommerce-account
+  .elementor-element.elementor-element-a3dcdc6:not(
+    .elementor-motion-effects-element-type-background
+  ) {
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+body.woocommerce-account .woocommerce-MyAccount-content-wrapper {
+  /* background-color: #fff; */
+}
+body.woocommerce-account .woocommerce-MyAccount-content .table-primary,
+body.woocommerce-account .woocommerce-MyAccount-content .woocommerce-Addresses {
+  background-color: #fff;
+}
+body.woocommerce-account .woocommerce-MyAccount-content .shop_table .button {
+  border: 2px solid #528000 !important;
+}
+body.woocommerce-account
+  .woocommerce-MyAccount-content
+  tbody
+  .woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number
+  > a {
+  color: #528000 !important;
+}
+body .login-button {
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5em;
+  color: #fff !important;
+}
+body.woocommerce-account .__p_bg_white {
+  background-color: #fff;
+  /* border-radius: 5px;
+  border: 1px solid #c9c9c9; */
+  padding: 15px;
+}
+
+.current_campaigns .entry-content > p {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #c9c9c9;
+  width: calc(25% - 20px);
+  background-color: #fff;
+  margin: 10px;
+}
+.current_campaigns .entry-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.current_campaigns-template-default.single-current_campaigns
+  #content
+  .current_campaigns {
+  background-color: transparent;
+}
+.current_campaigns-template-default.single-current_campaigns #content {
+  background-image: url("https://wordpress-474365-1656051.cloudwaysapps.com/wp-content/uploads/2023/03/goda-kakor-i-skane.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: 50px;
+}
+.current_campaigns-template-default.single-current_campaigns #content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.current_campaigns .entry-header .entry-title,
+.current_campaigns .entry-header .entry-meta,
+.current_campaigns .entry-header .entry-meta *,
+.current_campaigns-template-default.single-current_campaigns
+  #content
+  .navigation
+  .nav-links
+  a {
+  color: #fff;
+}
+body.woocommerce-account
+  .fixed__nav_bar
+  nav.woocommerce-MyAccount-navigation
+  ul
+  h3 {
+  text-decoration: none !important;
+  font-size: 18px;
+  font-weight: 500 !important;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1.5em;
+  fill: #ffffff !important;
+  color: #ffffff !important;
+  background-color: #205b38;
+  padding: 10px;
+}
+@media only screen and (max-width: 1024px) {
+  .current_campaigns .entry-content > p {
+    width: calc(33.333333% - 20px);
+  }
+}
+@media only screen and (max-width: 767px) {
+  .current_campaigns .entry-content > p {
+    width: calc(50% - 20px);
+  }
+}
