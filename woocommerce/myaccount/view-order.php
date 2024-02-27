@@ -21,6 +21,9 @@ defined( 'ABSPATH' ) || exit;
 
 $notes = $order->get_customer_order_notes();
 ?>
+
+
+<div class="view__order table_container">
 <p>
 <?php
 printf(
@@ -32,8 +35,7 @@ printf(
 );
 ?>
 </p>
-
-<?php if ( $notes ) : ?>
+    <?php if ( $notes ) : ?>
 	<h2><?php esc_html_e( 'Order updates', 'woocommerce' ); ?></h2>
 	<ol class="woocommerce-OrderUpdates commentlist notes">
 		<?php foreach ( $notes as $note ) : ?>
@@ -54,3 +56,4 @@ printf(
 <?php endif; ?>
 
 <?php do_action( 'woocommerce_view_order', $order_id ); ?>
+</div>

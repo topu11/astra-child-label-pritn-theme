@@ -92,7 +92,7 @@ $notes = $order->get_customer_order_notes();
               <p>Antal artiklar (allt utom glutenfritt &amp; tillbehör): <strong><?=$total_quantity_in_order;?></strong> kartonger</p>
               <p>Glutenfritt: <strong>0</strong> kartonger</p>
               <p>Tillbehör: <strong>0</strong> kartonger</p>
-              <p>Önskat leveransdatum: <span id=""><?=$order->get_meta( 'Önskat leveransdatum (åååå-mm-dd)' )?></span></p>
+              <p>Önskat leveransdatum: <span id=""><?=get_post_meta($order->get_id(),'Önskat leveransdatum (åååå-mm-dd)',true)?></span></p>
               <p>Other comment <span id=""><?=$notes[array_key_last($notes)]->comment_content ?></span></p>
 			  
 </div>
@@ -101,7 +101,7 @@ $notes = $order->get_customer_order_notes();
 <a href="<?=site_url('/my-account')?>"  class="btn btn-sm btn-success"><i class="fas fa-arrow-left"></i> Tillbaka</a>
 </div>
 <style>
-	.elementor-container.elementor-column-gap-default{
+/* 	.elementor-container.elementor-column-gap-default{
 	background-color: white !important;
   }
   
@@ -110,7 +110,7 @@ $notes = $order->get_customer_order_notes();
 	color: #333 !important;
     background-color: #fff !important;
     border-color: #ccc !important;
-  }
+  } */
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js" integrity="sha512-w3u9q/DeneCSwUDjhiMNibTRh/1i/gScBVp2imNVAMCt6cUHIw6xzhzcPFIaL3Q1EbI2l+nu17q2aLJJLo4ZYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>

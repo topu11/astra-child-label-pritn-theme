@@ -27,28 +27,31 @@ $allowed_html = array(
 	),
 );
 ?>
-<div style="padding-bottom: 9px;
-    margin: 40px 0 20px;
-    border-bottom: 1px solid #eee;">
-<h4>Kontrollpanelen</h2>
-</div>
-<div style="padding-bottom: 80px;border-bottom: 1px solid #eee;">
-<p>
-	<?php
-      
-	echo _e('Välkommen','woocommerce').' '.get_display_name_else_user_name();
-	// printf(
-	// 	/* translators: 1: user display name 2: logout url */
-	// 	wp_kses( __( 'Hello %1$s (not %1$s? <a href="%2$s">Log out</a>)', 'woocommerce' ), $allowed_html ),
-	// 	'<strong>' . esc_html( $current_user->display_name ) . '</strong>',
-	// 	esc_url( wc_logout_url() )
-	// );
-	?>
-</p>
-<p>Ditt kundnummer är: <?=get_current_user_id()?></p>
-</div>
-<div>
-	<img src="https://wordpress-474365-1656051.cloudwaysapps.com/wp-content/uploads/2023/03/logo_header.png" alt="">
+
+<div class="my_product_view">
+    <div class="_heading_col">
+        <h2>Kontrollpanelen</h2>
+    </div>
+    <div class="_descriptions">
+        <p>
+			<?php echo _e('Välkommen','woocommerce');?>
+	<?php echo '<strong>'.get_display_name_else_user_name().'</strong>'?>
+            <?php
+
+            //echo _e('Välkommen','woocommerce').' ' .get_display_name_else_user_name() ;
+            // printf(
+            // 	/* translators: 1: user display name 2: logout url */
+            // 	wp_kses( __( 'Hello %1$s (not %1$s? <a href="%2$s">Log out</a>)', 'woocommerce' ), $allowed_html ),
+            // 	'<strong>' . esc_html( $current_user->display_name ) . '</strong>',
+            // 	esc_url( wc_logout_url() )
+            // );
+            ?>
+        </p>
+        <p>Ditt kundnummer är: <strong><?=get_current_user_id()?></strong> </p>
+    </div>
+    <div class="_img">
+        <img src="https://wordpress-474365-1656051.cloudwaysapps.com/wp-content/uploads/2023/03/logo_header.png" alt="">
+    </div>
 </div>
 
 
