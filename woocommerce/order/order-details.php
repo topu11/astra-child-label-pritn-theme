@@ -99,6 +99,7 @@ $notes = $order->get_customer_order_notes();
 </div>
 <div>
 <a href="<?=site_url('/my-account')?>"  class="btn btn-sm btn-success"><i class="fas fa-arrow-left"></i> Tillbaka</a>
+<a href="<?=site_url('/my-account/re-order-page/').'?order_again='.$order_id ?>"  class="btn btn-sm btn-warning"><i class="fas fa-arrow-up"></i> Beställ igen</a>
 </div>
 <style>
 /* 	.elementor-container.elementor-column-gap-default{
